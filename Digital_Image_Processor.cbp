@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Digital_Image_Processor" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="Program_Files/bin/Debug/Digital_Image_Processor" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Program_Files/obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="Program_Files" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="Program_Files/bin/Release/Digital_Image_Processor" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Program_Files/obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="Program_Files" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Program_Files/Enter_Angle.cpp" />
+		<Unit filename="Program_Files/Enter_Angle.h" />
+		<Unit filename="Program_Files/Enter_Blur_Radius.cpp" />
+		<Unit filename="Program_Files/Enter_Blur_Radius.h" />
+		<Unit filename="Program_Files/Enter_Crop_Coordinates.cpp" />
+		<Unit filename="Program_Files/Enter_Crop_Coordinates.h" />
+		<Unit filename="Program_Files/Enter_Hue.cpp" />
+		<Unit filename="Program_Files/Enter_Hue.h" />
+		<Unit filename="Program_Files/Enter_qblur_Radius.cpp" />
+		<Unit filename="Program_Files/Enter_qblur_Radius.h" />
+		<Unit filename="Program_Files/Invert_Option.cpp" />
+		<Unit filename="Program_Files/Invert_Option.h" />
+		<Unit filename="Program_Files/Stretch_Option.cpp" />
+		<Unit filename="Program_Files/Stretch_Option.h" />
+		<Unit filename="Program_Files/Warp_Coordinates.cpp" />
+		<Unit filename="Program_Files/Warp_Coordinates.h" />
+		<Unit filename="Program_Files/functions.h" />
+		<Unit filename="Program_Files/home_window.cpp" />
+		<Unit filename="Program_Files/home_window.h" />
+		<Unit filename="Program_Files/home_window_main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
